@@ -1,0 +1,18 @@
+nav {
+    height: 60px;
+    background-color: #2C3E50;
+}
+
+.text-menu {
+    color: #fff;
+    line-height: 60px;
+}
+
+.inline-bl {
+    display: inline-block;
+}
+
+#jumbotron {
+    height: 300px;
+    background-color: #1ABC9C;
+}

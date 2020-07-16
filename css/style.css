@@ -15,6 +15,32 @@ body {
     text-transform: uppercase;
 }
 
+.l-height {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+ .middle_line_left {
+     width: 150px;
+     position: absolute;
+     top: 370px;
+     left: 35%;
+     border-bottom: 5px solid #fff;
+}
+
+.middle_line_right {
+    width: 150px;
+    position: absolute;
+    top: 370px;
+    margin-left: 54%;    
+    border-bottom: 5px solid #fff;
+}
+
+.star {
+    font-size: 40px;
+}
+
+
 /* HEADER TOP -------------------------- */
 
 .header_top {
@@ -77,6 +103,7 @@ h_icon {
 }
 
 #avatar {
+    margin-top: 50px;
     height: 200px;
 }
 
@@ -119,24 +146,36 @@ short_line {
     opacity: 0.9;
 }
 
-.title-h2 {
+.portfolio-h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 46px;
     color: #2C3E50;
 }
 
 .about-box {
-    height: 300px;
+    height: 550px;
     background-color: #1ABC9C;
+}
+
+.box_centered {
+    margin-top: 70px;
+    text-align: justify;
 }
 
 .about-h2 {
     text-align: center;
+    font-size: 46px;
+    margin-top: 70px;
 } 
 
 #download {
-    padding: 5px 15px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 60px;
     border: 1px solid #fff;
+    border-radius: 10px;
     color: #fff;
     text-decoration: none;
     text-align: center;
@@ -212,4 +251,14 @@ footer p {
 
 .hidden_icon:hover {
     display: block;
+}
+
+.pos_rel {
+    position: relative;
+}
+
+.pos_abs {
+    position: absolute;
+    top: 0;
+    left: 0;
 }

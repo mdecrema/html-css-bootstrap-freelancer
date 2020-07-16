@@ -288,11 +288,12 @@ footer p {
 
 
 .form-list {
+    margin-top: 80px;
     list-style: none;
 }
 
 #submit_btn {
-    margin-top: 50px;
+    margin: 80px 0 80px;
     padding: 15px 25px;
     background-color: #1ABC9C;
     font-size: 20px;

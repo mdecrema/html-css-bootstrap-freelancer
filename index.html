@@ -3,7 +3,7 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
                 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
                 <link rel="stylesheet" type="text/css" href="css/style.css">
                 <link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
@@ -11,60 +11,81 @@
         </head>
     <body>
         <header>
+            
+            <!-- NAV BAR FIXED ------------------------------------------------------------->
+            
             <div class="header_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-6 inline-bl text-menu">lalalalalalaal</div>
-                    <div class="col-xs-6 inline-bl text-menu">
-                        <nav>
-                            <ul>
-                                <li>lalalalalalaal</li>
-                            </ul>
-                        </nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 inline-bl text-menu">start bootstrap</div>
+                        <div class="col-xs-6 inline-bl text-menu">
+                            <nav class="visible-md visible-lg">
+                                <ul class="mini_menu">
+                                    <li class="col-xs-4">portfolio</li>
+                                    <li class="col-xs-4">about</li>
+                                    <li class="col-xs-4">contact</li>
+                                </ul>
+                            </nav>
+                            <div class="visible-xs- visible-sm">
+                                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
             
-            <div class="container">
-                <div id="jumbotron" class="row">
-                    <div class="col-md-12 jumbo-style">
-                        <div id="picture"></div>
-                        <h1>START BOOTSTRAP</h1>
-                        <hr>
-                        <h3>lalalalalalaal-lalalalalalaal</h3>
-                    </div>
+            <!-- /NAV BAR FIXED ------------------------------------------------------------>
+            
+            <!-- JUMBOTRON ----------------------------------------------------------------->
+            
+            <div class="jumbotron">
+                <div class="j-txt">
+                    <img id="avatar" src="img/avatar.svg" alt="avatar"/>
+                    <h1>START BOOTSTRAP</h1>
+                    <hr>
+                    <h3>lalalalalalaal-lalalalalalaal</h3>
                 </div>
             </div>
         </header>
-        <main>
-            <section id="portfolio">
-                    <h2 class="title-h2">PORTFOLIO</h2>
-            <div class="wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="box"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="box"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="box"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="box"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="box"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="box"></div>
+        
+        <!-- /JUMBOTRON -------------------------------------------------------------------->
+        
+    <main>
+        
+        <!-- SECTION 'PORTFOLIO' ----------------------------------------------------------->
+        
+        <section id="portfolio">
+            <h2 class="title-h2">PORTFOLIO</h2>
+                <div class="wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <div class="box"></div>
+                                </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <div class="box"></div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <div class="box"></div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <div class="box"></div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <div class="box"></div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <div class="box"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>
-            </section>
+        </section>
+        
+        <!-- /SECTION 'PORTFOLIO' ---------------------------------------------------------->
+        
+        <!-- SECTION 'ABOUT' --------------------------------------------------------------->
+        
                 <div class="row">
                     <div class="col-md-12 about-box">
                         <h2 class="about-h2">ABOUT</h2>
@@ -74,6 +95,11 @@
                         <a id="download" href="#">Download</a>
                     </div>
                 </div>
+        
+        <!-- /SECTION 'ABOUT' -------------------------------------------------------------->
+        
+        <!-- SECTION 'CONTACT' ------------------------------------------------------------->
+        
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h2 class="about-h2">CONTACT ME</h2>
@@ -85,12 +111,18 @@
                         </form>
                     </div>
                 </div>
-            </div>
+        
+        <!-- /SECTION 'CONTACT' ------------------------------------------------------------>
         </main>
+        
+        <!-- PIE' DI PAGINA ---------------------------------------------------------------->
         
         <footer>
         
+            
         </footer>
+        
+        <!-- /PIE' DI PAGINA --------------------------------------------------------------->
     </body>
 </html>
       

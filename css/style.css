@@ -281,3 +281,26 @@ footer p {
     top: 0;
     left: 0;
 }
+
+
+/* FORM ------------- */
+
+
+
+.form-list {
+    list-style: none;
+}
+
+#submit_btn {
+    margin-top: 50px;
+    padding: 15px 25px;
+    background-color: #1ABC9C;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.typing_box {
+    border: none;
+    font-size: 24px;
+}

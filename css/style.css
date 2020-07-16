@@ -7,6 +7,14 @@ body {
     margin: auto;
 }
 
+.wh {
+    color: #fff;
+}
+
+.up_case {
+    text-transform: uppercase;
+}
+
 /* HEADER TOP -------------------------- */
 
 .header_top {
@@ -106,4 +114,32 @@ short_line {
     color: #fff;
     text-decoration: none;
     text-align: center;
+}
+
+footer {
+    position: relative;
+    height: 350px;
+    background-color: #2C3E50;  
+}
+
+footer p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.foot_txt {
+    margin-top: 60px;
+}
+
+.copyright { 
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #1A252F;
+}
+
+.copyright h6 {
+    line-height: 50px;
 }

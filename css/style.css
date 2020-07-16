@@ -1,8 +1,12 @@
-nav {
-    height: 60px;
+.header_top {
+    height: 70px;
     background-color: #2C3E50;
 }
 
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+}
 .text-menu {
     color: #fff;
     line-height: 60px;
@@ -10,6 +14,10 @@ nav {
 
 .inline-bl {
     display: inline-block;
+}
+
+.txt-cntr {
+    text-align: center;
 }
 
 #jumbotron {
@@ -34,19 +42,14 @@ nav {
     color: #2C3E50;
 }
 
-.red-box {
-    height: 150px;
+
+
+.box {
+    height: 250px;
     background-color: red;
-    border: 10px solid #fff;
-    border-radius: 10%;
+    margin-bottom: 40px;
 }
 
-.yellow-box {
-    height: 150px;
-    background-color: yellow;
-    border: 10px solid #fff;
-    border-radius: 10%;
-}
 
 .title-h2 {
     text-align: center;

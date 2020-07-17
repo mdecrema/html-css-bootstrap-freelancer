@@ -351,18 +351,24 @@ footer p {
 
 /* MEDIA QUERY */
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 400px) {
     .box_img {
-        height: 260px;
-         padding: 0px 25px;
+        height: 280px;
+        padding: 0px 25px;
+    }
+    
+    .about-box {
+        height: 750px;
     }
 }
+
 
 @media screen and (min-width:401px) and (max-width: 650px) {
     .box_img {
         height: 340px;
         padding: 0px 25px;
     }
+    
 }
 
 @media screen and (min-width: 651px) and (max-width: 767px) {

@@ -7,6 +7,9 @@ body {
     margin: auto;
 }
 
+
+/* CLASSI GENERICHE MULTIUSO */
+
 .wh {
     color: #fff;
 }
@@ -22,6 +25,16 @@ body {
 
 .m-bottom-30 {
     margin-bottom: 30px;
+}
+
+.pos_rel {
+    position: relative;
+}
+
+.pos_abs {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .middle_line_dark::after {
@@ -66,6 +79,29 @@ body {
     margin-top: 30px;
 }
 
+.inline-bl {
+    display: inline-block;
+}
+
+.txt-cntr {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.a_over {
+    text-decoration: none;
+    color: #fff;
+}
+
+.a_over:hover {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+
 
 /* HEADER TOP -------------------------- */
 
@@ -91,6 +127,7 @@ body {
     font-size: 14px;
     text-transform: uppercase;
     text-align: right;
+    line-height: 70px;
 }
 
 .text-menu {
@@ -100,16 +137,25 @@ body {
     text-transform: uppercase;
 }
 
-.inline-bl {
-    display: inline-block;
-}
-
-.txt-cntr {
-    text-align: center;
-}
-
-h_icon {
+h_icon { 
     float: right;
+    vertical-align: middle;
+}
+
+#btn-menu {
+    margin-top: 9px;
+    float: right;
+    width: 100px;
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #1ABC9C;
+    border: 1px solid #1ABC9C;
+    border-radius: 10px;
+}
+
+#btn-menu a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* JUMBOTRON -------------------------- */
@@ -133,25 +179,6 @@ h_icon {
     height: 200px;
 }
 
-.bold {
-    font-weight: bold;
-}
-
-short_line {
-    width: 200px;
-    color: #2C3E50;
-    vertical-align: middle;
-}
-
-.a_over {
-    text-decoration: none;
-    color: #fff;
-}
-
-.a_over:hover {
-    color: #1ABC9C;
-    text-decoration: none;
-}
 
 /* SECTION 'PORTFOLIO' ---------------- */
 
@@ -164,6 +191,7 @@ short_line {
     margin-bottom: 40px;
     position: relative;
     overflow: hidden;
+     border-radius: 3%;
 }
 
 .box_img img {
@@ -214,7 +242,7 @@ short_line {
 
 footer {
     position: relative;
-    min-height: 350px;
+    min-height: 150px;
     background-color: #2C3E50;  
 }
 
@@ -260,10 +288,8 @@ footer p {
 
 .copyright { 
     width: 100%;
+    margin-top: 100px;
     height: 50px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
     background-color: #1A252F;
 }
 
@@ -275,25 +301,29 @@ footer p {
 /* IMG-BOXES ON MOUSE OVER */
 
 
-.hidden {
+.hidden_box_img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: #1ABC9C;
+    opacity: 0.9;
+    display: none;
 }
 
-.pos_rel {
-    position: relative;
-}
-
-.pos_abs {
+.plus {
+    font-size: 70px;
+    color: #fff;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+.box_img:hover .hidden_box_img {
+    display: block;
+}
 
 
 /* FORM ------------- */
@@ -317,4 +347,41 @@ footer p {
 .typing_box {
     border: none;
     font-size: 24px;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 668px) {
+    .box_img {
+        height: 260px;
+         padding: 0px 25px;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width: 650px) {
+    .box_img {
+        height: 340px;
+        padding: 0px 25px;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .box_img {
+        height: 400px;
+         padding: 0px 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 970px) {
+    .box_img {
+        height: 340px;
+         padding: 0px 25px;
+    }
+}
+
+@media screen and (min-width: 970px) and (max-width: 1150px) {
+    .box_img {
+        height: 370px;
+         padding: 0px 25px;
+    }
 }

@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -352,6 +352,7 @@ footer p {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 400px) {
+    
     .box_img {
         height: 280px;
         padding: 0px 25px;
@@ -364,6 +365,7 @@ footer p {
 
 
 @media screen and (min-width:401px) and (max-width: 650px) {
+    
     .box_img {
         height: 340px;
         padding: 0px 25px;

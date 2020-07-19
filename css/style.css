@@ -91,6 +91,11 @@ body {
     font-weight: bold;
 }
 
+.decor_none:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 .a_over {
     text-decoration: none;
     color: #fff;

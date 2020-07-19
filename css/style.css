@@ -102,6 +102,20 @@ body {
 }
 
 
+/* ------- LINK :ACTIVE e :VISITED
+
+.a_over:active {
+    color: #fff;
+}
+
+.a_over:visited {
+    padding: 15px 20px;
+    background-color: #1ABC9C; 
+    border-radius: 10px;
+}
+
+---------------------------------*/
+
 
 /* HEADER TOP -------------------------- */
 

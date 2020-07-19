@@ -101,6 +101,15 @@ body {
     text-decoration: none;
 }
 
+.a_over_footer {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+.a_over_footer:hover {
+    color: #159A80;
+    text-decoration: underline;
+}
 
 /* ------- LINK :ACTIVE e :VISITED 
 
@@ -206,6 +215,7 @@ h_icon {
     position: relative;
     overflow: hidden;
     border-radius: 3%;
+    cursor: pointer;
 }
 
 .box_img img {
